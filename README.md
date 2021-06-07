@@ -1,2 +1,3 @@
-# xbox-designer-controller
-xbox-designer-controller
+# xbox-controller-designer
+
+Xbox Controller Designer

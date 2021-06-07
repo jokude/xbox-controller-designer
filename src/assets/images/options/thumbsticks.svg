@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 12.7 12.7">
+  <defs/>
+  <g transform="matrix(.3399 0 0 .3399 13.511595 -14.495526)" style="fill:var(--color-fill);stroke:var(--color-stroke);">
+    <path style="stroke-width:.73549731;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M-27.351959 52.950479c-3.141312 0-3.141312 4.188417 0 4.188417h2.094208v5.759073c-2.094208.523552-5.759073 2.61776-7.853281 6.806177h24.0833957c-2.0942077-4.188418-5.7590727-6.282625-7.8532807-6.806177v-5.759073h2.094208c3.141312 0 3.141312-4.188417 0-4.188417h-6.282625z"/>
+    <path style="stroke-width:.73549731;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M-25.257753 57.138896h8.376833"/>
+    <path style="stroke-width:.73549731;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M-25.257753 62.897969h8.376833"/>
+  </g>
+</svg>

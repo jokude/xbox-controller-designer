@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      <% if(compilation.assets['base.css']) { %>
+        <%= compilation.assets['base.css']._value %>
+      <% } %>
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Xbox Controller Designer" />
+    <title>Xbox Controller Designer</title>
+    <link rel="icon" href="<%= webpackConfig.output.publicPath %>assets/images/favicon.ico" />
+    <% if(webpackConfig.mode === "production") { %>
+    <link rel="stylesheet" type="text/css" href="<%= webpackConfig.output.publicPath %>index.css" />
+    <% } %>
+  </head>
+  <body></body>
+</html>

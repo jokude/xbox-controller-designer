@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 12.699999 12.7">
+  <defs/>
+  <g transform="matrix(.6004 0 0 .6004 -207.57772 -59.115352)" style="fill:var(--color-fill);stroke:var(--color-stroke);">
+    <path style="fill-opacity:1;stroke-width:.41645491;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke" d="M359.10228 111.50304c2.3299-.0644 4.05458 2.6892 5.58552 4.25564.26598.26598.74953.0938.53196-.53196-1.08769-3.77938-2.49838-7.46408-2.92575-11.43701-.0706-.95621-.24976-1.54419-1.59586-1.59586h-8.77726c-1.3461.0517-1.52525.63965-1.59586 1.59586-.42737 3.97293-1.83806 7.65763-2.92575 11.43701-.21757.62578.26598.79794.53195.53196 1.53095-1.56644 3.44897-4.32011 5.58552-4.25564h2.79277z"/>
+    <path style="opacity:1;fill:none;fill-opacity:1;stroke-width:.41645491;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M352.42672 102.40267v5.01619h7.67292v-5.01619"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "newLine": "lf",
+    "module": "es2015",
+    "target": "es6",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "paths": {
+      "Commons/*": ["src/app/commons/*"],
+      "Datasource/*": ["src/app/datasource/*"],
+      "Lib/*": ["src/app/lib/*"],
+      "Pages/*": ["src/app/pages/*"],
+      "Types/*": ["src/app/types/*"]
+    },
+    "types": ["svelte"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

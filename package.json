@@ -1,0 +1,77 @@
+{
+  "name": "xbox-controller-designer",
+  "version": "1.0.0",
+  "description": "Design your custom Xbox controller",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/production.config.js",
+    "deploy": "node scripts/deploy-gh-pages.js",
+    "lint": "eslint src/**/*.{ts,svelte}",
+    "lint:fix": "npm run lint -- --fix",
+    "start": "node src/server",
+    "start:dev": "webpack serve --config webpack/development.config.js",
+    "analyze": "webpack --config webpack/analyzer.config.js"
+  },
+  "author": "Richard Hidalgo",
+  "contributors": [
+    "Richard Hidalgo"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "babylonjs",
+    "svelte",
+    "xbox",
+    "controller"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": "https://github.com/jokude/xbox-controller-designer",
+  "homepage": "https://github.com/jokude/xbox-controller-designer",
+  "bugs": "https://github.com/jokude/xbox-controller-designer/issues",
+  "dependencies": {
+    "@babylonjs/core": "^4.2.0",
+    "@babylonjs/loaders": "^4.2.0",
+    "clsx": "^1.1.1",
+    "keycode": "^2.2.0",
+    "reset-css": "^5.0.1",
+    "svelte": "^3.38.2",
+    "svelte-inline-svg": "^1.0.8",
+    "svelte-portal": "^2.1.2",
+    "svelte-spa-router": "^3.1.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@babylonjs/inspector": "^4.2.0",
+    "@types/webfontloader": "^1.6.32",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.0",
+    "prettier": "^2.3.1",
+    "sass": "^1.34.1",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^2.0.0",
+    "svelte-loader": "^3.1.1",
+    "svelte-preprocess": "^4.7.3",
+    "terser-webpack-plugin": "^5.1.3",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^5.38.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.1.1"
+  }
+}
